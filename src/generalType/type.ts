@@ -68,8 +68,8 @@ const f: string = company[2];
 let notSure: any = 4;
 notSure = "maybe a string instead";
 notSure = false;
-notSure.ifItExists();
-notSure.toFixed();
+// notSure.ifItExists();
+// notSure.toFixed();
 
 let prettySure: object = { hello: 4 };
 
