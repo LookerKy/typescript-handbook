@@ -1,4 +1,6 @@
-const createAnySquare = (config: SquareConfig2): { color: string; area: number } => {
+const createAnySquare = (
+  config: SquareConfig2
+): { color: string; area: number } => {
   const newSquare = { color: "white", area: 100 };
   if (config.color) {
     newSquare.color = config.color;
